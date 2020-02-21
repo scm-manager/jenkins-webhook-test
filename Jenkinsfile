@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "hello from maven:"
+                echo "hello from maven?"
                 sh 'mvn --version'
             }
         }
